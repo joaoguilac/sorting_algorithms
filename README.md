@@ -19,9 +19,8 @@ Para compilar e executar o programa manualmente basta digitar os seguintes coman
 
 ```
 $ mkdir bin (caso não tenha uma pasta para os executáveis, você deve criá-la com esse comando)
-$ cd bin/ (vá para a pasta dos executáveis criada para compilar e executar seu programa)
-$ g++ -Wall -std=c++11 -g ../source/main.cpp -I../source/lib -o sortsuite (compilar)
-$ ./sortsuite (executar)
+$ g++ -Wall -std=c++11 -g source/main.cpp -I source/lib -o bin/sortsuite (compilar)
+$ ./bin/sortsuite (executar)
 ```
 
 ## Cmake
@@ -29,7 +28,7 @@ $ ./sortsuite (executar)
 Para compilar e executar o programa com o Cmake você precisa ter instalado pelo menos a versão 3.15. Em seguida, abra seu terminal e execute os seguintes comandos:
 
 ```
-$ cmake -S source -B build (criar o cmake do projeto)
+$ cmake -S source -B build (pede ao cmake para criar o diretório de compilação)
 $ cmake --build build (compilar)
 $ ./build/sortsuite (executar)
 ```
