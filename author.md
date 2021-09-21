@@ -2,9 +2,10 @@
 
 Preencha os dados abaixo para identificar a autoria do trabalho.
 
-- Nome: João Guilherme Lopes Alves da Costa - Paulo Vitor Fernandes Andrade
-- Email: joguicosta@hotmail.com - paulovitorfandrade2002@gmail.com
+- Aluno: João Guilherme Lopes Alves da Costa (joguicosta@hotmail.com)
+- Aluno: Paulo Vitor Fernandes Andrade (paulovitorfandrade2002@gmail.com)
 - Turma: DIM0119 - ESTRUTURA DE DADOS BÁSICAS I - T01 (2021.1)
+- Professor: Selan Rodrigues dos Santos
 
 # Indique quais algoritmos foram implementados nos experimentos
 
