@@ -17,20 +17,30 @@ Você precisa fornecer algumas informações no arquivo [author.md](author.md), 
 
 Para compilar e executar o programa manualmente basta digitar os seguintes comandos em seu terminal:
 
-```
-$ mkdir bin (caso não tenha uma pasta para os executáveis, você deve criá-la com esse comando)
-$ g++ -Wall -std=c++11 -g source/main.cpp -I source/lib -o bin/sortsuite (compilar)
-$ ./bin/sortsuite (executar)
+```bash
+# Caso não tenha uma pasta para os executáveis, você deve criá-la com esse comando
+$ mkdir bin
+
+# Compilar
+$ g++ -Wall -std=c++11 -g source/main.cpp -I source/lib -o bin/sortsuite
+
+# Executar
+$ ./bin/sortsuite
 ```
 
 ## Cmake
 
 Para compilar e executar o programa com o Cmake você precisa ter instalado pelo menos a versão 3.15. Em seguida, abra seu terminal e execute os seguintes comandos:
 
-```
-$ cmake -S source -B build (pede ao cmake para criar o diretório de compilação)
-$ cmake --build build (compilar)
-$ ./build/sortsuite (executar)
+```bash
+# Pede ao cmake para criar o diretório de compilação
+$ cmake -S source -B build
+
+# Compilar
+$ cmake --build build
+
+# Executar
+$ ./build/sortsuite
 ```
 
 --------
